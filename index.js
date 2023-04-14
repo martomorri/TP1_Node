@@ -5,7 +5,7 @@ import {copiar} from './copiar-file.js';
 import { parseUrl } from './parse-url.js';
 
 //EJ1
-/*let string1 = "Alote";
+let string1 = "Alote";
 let string2 = "Morro";
 console.log(concatOnly(string1, string2))
 console.log(reverseString(string1, string2));
@@ -21,7 +21,7 @@ let alumno = new Alumno("martomorri", 46873102);
 console.log(alumno.mostrar());
 
 //EJ4
-copiar('./boca.txt', './copia.txt');*/
+copiar('./boca.txt', './copia.txt');
 
 //EJ5 y EJ6
 console.log(parseUrl("https://campus.ort.edu.ar/secundaria/almagro/informatica/tp/1931303/tp2-nodejs-basico"));
