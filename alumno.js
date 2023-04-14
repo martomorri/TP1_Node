@@ -4,7 +4,7 @@ export class Alumno {
         this.dni = dni;
     }
 
-    static mostrar = (alumno) => {
-        return "Username: " + alumno.username + "\nDni: " + alumno.dni;
+    mostrar = () => {
+        return "Username: " + this.username + "\nDni: " + this.dni;
     }
 }
