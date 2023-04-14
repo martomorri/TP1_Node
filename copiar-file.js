@@ -1,7 +1,7 @@
 import fs from 'fs';
 
-export const copiar = (path) => {
-    fs.copyFile(path, './copia.txt', error => {
+export const copiar = (path, newFile) => {
+    fs.copyFile(path, newFile, error => {
         if (error) {
             console.log("Error: ", error);
         } else {
