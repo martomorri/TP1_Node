@@ -4,8 +4,9 @@ import {Alumno} from './alumno.js';
 import {copiar} from './copiar-file.js';
 import { parseUrl } from './parse-url.js';
 import { obtenerMoneda } from './country-code.js';
+import { PizzaService } from './pizza-service.js';
 
-//EJ1
+/*//EJ1
 let string1 = "Alote";
 let string2 = "Morro";
 console.log(concatOnly(string1, string2))
@@ -32,4 +33,7 @@ console.log(parseUrl(5));
 let countryCode = "UZA";
 console.log("La moneda del pais " + countryCode + " es: " + obtenerMoneda(countryCode));
 countryCode = "AR";
-console.log("La moneda del pais " + countryCode + " es: " + obtenerMoneda(countryCode));
+console.log("La moneda del pais " + countryCode + " es: " + obtenerMoneda(countryCode));*/
+
+//EJ8: GetById de Pizzas
+console.log(PizzaService.getById(0));
