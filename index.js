@@ -6,7 +6,7 @@ import { parseUrl } from './parse-url.js';
 import { obtenerMoneda } from './country-code.js';
 
 //EJ1
-/*let string1 = "Alote";
+let string1 = "Alote";
 let string2 = "Morro";
 console.log(concatOnly(string1, string2))
 console.log(reverseString(string1, string2));
@@ -26,7 +26,7 @@ copiar('./boca.txt', './copia.txt');
 
 //EJ5 y EJ6
 console.log(parseUrl("https://campus.ort.edu.ar/secundaria/almagro/informatica/tp/1931303/tp2-nodejs-basico"));
-console.log(parseUrl(5));*/
+console.log(parseUrl(5));
 
 //EJ7
 let countryCode = "UZA";
