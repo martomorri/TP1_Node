@@ -1,12 +1,24 @@
 import url from 'url';
 
 // Esto era el EJ5
-//export const parseUrl = a => url.parse(a, true);
+/*export const parseUrl = a => {
+    let parsedUrl = url.parse(a, true);
+    return {
+        "host": parsedUrl.host,
+        "pathname": parsedUrl.pathname,
+        "parametros": parsedUrl.query
+    }
+}*/
 
 // Esto es el EJ6
 export const parseUrl = a => {
     try {
-        return url.parse(a, true);
+        let parsedUrl = url.parse(a, true);
+        return {
+            "host": parsedUrl.host,
+            "pathname": parsedUrl.pathname,
+            "parametros": parsedUrl.query
+        }
     } catch (error) {
         return error;
     }

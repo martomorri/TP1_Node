@@ -3,6 +3,7 @@ import {sumar, restar, multiplicar, dividir} from './matematica.js';
 import {Alumno} from './alumno.js';
 import {copiar} from './copiar-file.js';
 import { parseUrl } from './parse-url.js';
+import { obtenerMoneda } from './country-code.js';
 
 //EJ1
 let string1 = "Alote";
@@ -27,4 +28,6 @@ copiar('./boca.txt', './copia.txt');
 console.log(parseUrl("https://campus.ort.edu.ar/secundaria/almagro/informatica/tp/1931303/tp2-nodejs-basico"));
 console.log(parseUrl(5));
 
-
+//EJ7
+let countryCode = "AR";
+console.log(obtenerMoneda(countryCode));
