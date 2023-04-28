@@ -4,8 +4,9 @@ import sql from 'mssql';
 export class PizzaService {
     static getById = async (id) => {
         let returnEntity = null;
-        console.log("Estoy en PizzaService.GetById(id)");
+        // console.log("Estoy en PizzaService.GetById(id)");
         try {
+            // console.log(config);
             let pool = await sql.connect(config);
             let result = await pool.request()
                                 .input("pId", sql.Int, id)
@@ -14,7 +15,7 @@ export class PizzaService {
         } catch (error) {
             console.log(error);
         }
-        return console.log(returnEntity);
+        return returnEntity;
     }
 }
 

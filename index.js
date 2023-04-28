@@ -36,4 +36,4 @@ countryCode = "AR";
 console.log("La moneda del pais " + countryCode + " es: " + obtenerMoneda(countryCode));*/
 
 //EJ8: GetById de Pizzas
-console.log(PizzaService.getById(0));
+console.log(await PizzaService.getById(1));
